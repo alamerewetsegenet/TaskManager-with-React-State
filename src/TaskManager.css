@@ -1,0 +1,91 @@
+/* Container styling */
+.task-manager {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .task-manager h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Button styling */
+  .task-manager button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .task-manager button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Task list styling */
+  .task-manager ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Task item styling */
+  .task-manager li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Task text styling */
+  .task-manager li span {
+    flex: 1;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .task-manager li span.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* Task button styling */
+  .task-manager li button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .task-manager li button:hover {
+    background-color: #218838;
+  }
+  
+  .task-manager li button.undo {
+    background-color: #dc3545;
+  }
+  
+  .task-manager li button.undo:hover {
+    background-color: #c82333;
+  }
+  
